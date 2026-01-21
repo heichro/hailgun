@@ -74,7 +74,7 @@ library
 
    build-depends:         base               >= 4.6 && < 5
                         , aeson              >= 0.8
-                        , bytestring         >= 0.10.4 && <= 0.11
+                        , bytestring         
                         , email-validate     >= 2.0 && < 2.4
                         , exceptions         >= 0.8
                         , filepath           >= 1 && < 2
@@ -82,8 +82,8 @@ library
                         , http-client-tls    >= 0.2 && < 0.4
                         , http-types         >= 0.8
                         , tagsoup            >= 0.13 && < 0.15
-                        , text               == 1.2.*
-                        , transformers       >= 0.3 && < 0.6
+                        , text               
+                        , transformers       
                         , filepath           >= 1 && < 2
                         , attoparsec
 
